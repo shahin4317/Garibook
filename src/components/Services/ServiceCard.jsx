@@ -1,5 +1,6 @@
 
 const ServiceCard = ({ title, description, image }) => {
+    console.log(image,'image ');
   return (
     <article className="group overflow-hidden rounded-3xl border border-slate-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Image */}

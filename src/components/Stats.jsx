@@ -1,18 +1,18 @@
 const stats = [
   {
-    value: "0+",
+    value: "500+",
     label: "Trip Requests",
   },
   {
-    value: "0+",
+    value: "80000+",
     label: "Total Customers",
   },
   {
-    value: "0+",
+    value: "600+",
     label: "Active Drivers",
   },
   {
-    value: "0",
+    value: "4000",
     label: "District Covered",
   },
 ];

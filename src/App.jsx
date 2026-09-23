@@ -4,15 +4,11 @@ import Navbar from './components/Navbar';
 
 import Footer from './components/Footer';
 import Stats from './components/Stats';
-
-import Business from './components/Business';
-import GaribookClub from './components/GaribookClub';
-import Gsap from './components/Gsap';
 import Hero from './components/hero/Hero';
 import Services from './components/Services/Services';
-
-
-
+import Journey from './components/Journey/Journey';
+import UseCases from './components/UseCases/UseCases';
+import Blogs from './components/Blogs';
 export default function App() {
   return (
     <div className="min-h-screen bg-white font-sans antialiased text-gray-900">
@@ -20,11 +16,9 @@ export default function App() {
       <Hero />
       <Stats></Stats>
       <Services></Services>
-      
-      <Business></Business>
-      <GaribookClub></GaribookClub>
-      <Gsap></Gsap>
-    
+       <Journey></Journey>
+       <UseCases></UseCases>
+       <Blogs></Blogs>
       <Footer />
     </div>
   );
