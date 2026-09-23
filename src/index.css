@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Global Font Setup */
+body {
+  font-family: "Manrope", sans-serif;
+}
